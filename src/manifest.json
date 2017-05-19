@@ -7,7 +7,10 @@
   "content_scripts": [
     {
       "js": ["js/imgur.js"],
-      "matches": ["*://imgur.com/gallery/*"],
+      "matches": [
+        "*://imgur.com/gallery/*",
+        "*://imgur.com/t/*"
+      ],
       "run_at": "document_idle"
     }
   ],
