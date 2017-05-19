@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "ImgurDoubleTap",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "js": ["js/imgur.js"],
+      "matches": ["*://imgur.com/gallery/*"],
+      "run_at": "document_idle"
+    }
+  ],
+  
+  "permissions": [
+  ],
+
+  "web_accessible_resources": [
+    "js/*.map"
+  ],
+
+  "icons": {
+    "128": "icon_128.png"
+  }
+}

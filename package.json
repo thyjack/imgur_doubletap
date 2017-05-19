@@ -1,0 +1,15 @@
+{
+  "name": "imgur_doubletap",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack -p && rm -rf dist/**/*.map",
+    "watch": "webpack -w"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "webpack": "^2.4.1"
+  }
+}
